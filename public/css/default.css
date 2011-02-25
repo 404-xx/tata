@@ -1,0 +1,24 @@
+body{background-color:#fff;font:12px/1.5 'Century Gothic','Lucida Grande','Trebuchet MS',Trebuchet,Arial,Helvetica,Verdana,sans-serif;color:#333;margin:0;}
+h1,h2{font-weight:normal;}
+h2{font-size:19px;}
+a:link,a:visited{color:#666;text-decoration:underline;}
+a:hover,a:link:hover,a:visited:hover{color:#000;text-decoration:none;}
+a:hover.red{color:#dd0000;}
+a:link img,a:visited img{border:none;text-decoration:none;}
+#container{margin:0 auto;text-align:left;width:700px;padding-top:20px;}
+#header{border-bottom:1px solid #eee;padding-bottom:10px;margin-bottom:20px;font-size:12px;color:#999;}
+#header h1{margin-bottom:0px;color:#000;}
+#header h1 a{color:#000;text-decoration:none;}
+#navigation{margin-top:10px;text-align:left;float:right;}
+#navigation li{display:inline;list-style:none;margin-left:15px;}
+#navigation li a{color:#888;font-family:'Lucida Grande',Arial,Helvetica,sans-serif;text-decoration:none;font-weight:bold;}
+#navigation li a:hover{color:#000;}
+#mainContent{margin-bottom:3em;}
+#post{border-bottom:1px solid #eee;margin-bottom:1.5em;}
+h2.entryTitle{font-size:20px;color:#444;}
+.entryContent{margin-bottom:1.5em;}
+.date{color:#aaa;font-style:italic;margin-right:30px;}
+#footer{margin-bottom:0px;}
+ul.posts{padding:0;margin-bottom:2em;list-style-type:none;font-size:110%;}
+ul.posts li{line-height:1.75em;}
+ul.posts span{color:#aaa;}

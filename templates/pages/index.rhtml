@@ -1,0 +1,8 @@
+<!--<h2>Posts</h2>-->
+<% if articles.length > 0 %>
+<ul class="posts">
+ <% articles.each do |article| %>
+  <li><span><%= article.date %></span> &raquo; <a href="<%= article.path %>"><%= article.title %></a></li>
+ <% end %>
+</ul>
+<% end %>

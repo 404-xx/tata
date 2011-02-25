@@ -1,0 +1,6 @@
+title: 测试中文标题
+slug: test-non-english-title
+author: Ahy
+date: 2011/02/23
+
+It works with a correct formatted slug, and the slug must be one part of the filename.

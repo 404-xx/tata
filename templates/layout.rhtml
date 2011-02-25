@@ -1,0 +1,29 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title><%= title %></title>
+<link href="/css/default.css" rel="stylesheet" type="text/css" media="screen" />
+<link rel="alternate" type="application/atom+xml" title="<%= title %> - feed" href="/index.xml" />
+</head>
+<body>
+  <div id="container">
+    <div id="header">
+      <ul id="navigation">
+        <li><a href="/about">About</a></li>
+        <li><a href="http://www.flickr.com/photos/l404">Flickr</a></li>
+        <li><a href="http://twitter.com/l404">Twitter</a></li>
+        <li><a href="http://github.com/why404">Github</a></li>
+        <li><a href="/index.xml">RSS</a></li>
+      </ul>
+      <h1><a href="/">Ahy Notes</a></h1>
+      <p>Write less, think more...</p>
+    </div>
+    <div id="mainContent">
+      <%= yield %>
+    </div>
+    <div id="footer">
+      <p>©2011 <a href="/" class="red">Ahy</a></p>
+    </div>
+  </div>
+</body>
+</html>
